@@ -585,12 +585,7 @@ a .fourp3 {
   width: 201px;
   border: 1px solid #fec880;
   border-top: none;
-  over-flow: hidden;
-}
-
-.pub-bz ul {
-  padding-bottom: 5px;
-  padding-top: 6px;
+  overflow: hidden;
 }
 
 .pub-bz ul li {
@@ -629,7 +624,7 @@ a .fourp3 {
   width: 203px;
 }
 
-.pub-fz .pub-fl .pub-fr span {
+.pub-fz .pub-fl .pub-fr .span {
   background: url(i/pub-fivej2.png) no-repeat 0 0;
   margin-left: 19px;
 }
@@ -688,7 +683,7 @@ a .fourp3 {
   float: left;
   width: 49px;
   height: 24px;
-  background: url(i/index.png?__sprite1482475781877) no-repeat 0 0;background-position:0px 0px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px 0px;
   margin-right: 10px;
 }
 
@@ -698,7 +693,7 @@ a .fourp3 {
   width: 49px;
   height: 24px;
   margin-right: 9px;
-  background: url(i/index.png?__sprite1482475781877) no-repeat 0 0;background-position:0px -29px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -29px;
 }
 
 .six1 div .sixa3 {
@@ -834,12 +829,13 @@ a .fourp3 {
   margin-left: 8px;
   padding-top: 3px;
   overflow: hidden;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .li9 {
   float: left;
   width: 176px;
+  height: 115px;
   border-bottom: 1px dotted #88888a;
 }
 
@@ -981,6 +977,7 @@ a .fourp3 {
 
 .eleven {
   float: left;
+  width: 203px;
   margin-left: 10px;
 }
 
@@ -1000,6 +997,7 @@ a .fourp3 {
 
 .thirteen {
   width: 240px;
+  float: left;
 }
 
 .thirteenul {
@@ -1029,20 +1027,21 @@ a .fourp3 {
 
 .life {
   width: 790px;
+  margin-top: 11px;
+  float: left;
 }
 
 .lifeul {
   height: 280px;
-  margin-left: 8px;
+  margin-left: 12px;
   padding-top: 8px;
-  margin-bottom: 15px;
   overflow: hidden;
 }
 
 .lifeul li {
   margin-top: 10px;
   width: 128px;
-  padding-right: 18px;
+  padding-right: 22px;
   padding-left: 5px;
   float: left;
   border-bottom: 1px dotted #8a8a8c;
@@ -1061,4 +1060,929 @@ a .fourp3 {
   display: block;
   line-height: 32px;
   text-align: center;
+}
+
+.lifediv {
+  padding-bottom: 15px;
+}
+
+.dangan {
+  margin-top: 10px;
+}
+
+.danganul {
+  height: 298px;
+  overflow: hidden;
+}
+
+.fourteen {
+  border: 1px #d7d7d7 solid;
+  position: relative;
+  float: left;
+}
+
+.fourteen i {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -58px;
+}
+
+.fourteen b {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -67px;
+}
+
+.fourteen var {
+  bottom: -1px;
+  left: -1px;
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -76px;
+}
+
+.fourteen em {
+  bottom: -1px;
+  right: -1px;
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -85px;
+}
+
+.fourteent1 {
+  margin-right: 5px;
+  margin-left: 10px;
+  width: 259px;
+}
+
+.fourteent1 p {
+  border-bottom: 2px solid #00aea4;
+  float: left;
+  width: 62px;
+  line-height: 29px;
+  background: url(i/bgbijiben.png) no-repeat 9px 12px;
+  padding-left: 24px;
+}
+
+.fourteent1 div {
+  border-bottom: 2px solid #dddddd;
+  height: 29px;
+}
+
+.fourteendiv {
+  width: 537px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.fourteenul {
+  width: 552px;
+  overflow: hidden;
+}
+
+.fourteenul .fourteenli {
+  float: left;
+  border-right: 1px #8b8b8b dotted;
+}
+
+.fourteenz1 {
+  margin-top: 4px;
+  margin-left: 9px;
+  padding-bottom: 4px;
+}
+
+.fourteenz1 li {
+  line-height: 24px;
+  font-size: 12px;
+  margin-left: 9px;
+  width: 235px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.fourteenz1 li span {
+  float: left;
+}
+
+.fourteenz1 li a {
+  float: left;
+}
+
+.fourteen {
+  margin-left: 10px;
+}
+
+.fifteen {
+  width: 203px;
+  float: left;
+  margin-left: 10px;
+}
+
+.fifteendl dt {
+  float: left;
+}
+
+.fifteendl dt img {
+  display: block;
+  width: 90px;
+  height: 90px;
+  padding: 3px;
+  border: 1px solid #c9c9c9;
+}
+
+.fifteendl .fifteendd {
+  float: left;
+  margin-left: 10px;
+}
+
+.fifteendl .fifteendd a {
+  display: block;
+  float: none;
+}
+
+.fifteenul {
+  margin-left: 6px;
+  height: 381px;
+  overflow: hidden;
+}
+
+.fifteenul li {
+  border-bottom: 1px dotted #878787;
+  width: 190px;
+  padding-bottom: 13px;
+  margin-top: 17px;
+}
+
+.sixteen {
+  width: 240px;
+  float: left;
+}
+
+.sixteenul {
+  height: 252px;
+  margin-left: 13px;
+  padding-top: 8px;
+  overflow: hidden;
+  padding-bottom: 2px;
+}
+
+.sixteenul li {
+  margin-right: 15px;
+  margin-bottom: 6px;
+  float: left;
+}
+
+.sixteenul li img {
+  display: block;
+  width: 90px;
+  height: 90px;
+  padding: 3px;
+  border: 1px solid #c9c9c9;
+}
+
+.sixteenul li a {
+  line-height: 23px;
+}
+
+.diwuhang {
+  margin-top: 11px;
+}
+
+.pub-ol {
+  margin-left: 9px;
+}
+
+.pub-ol li {
+  float: left;
+  margin-right: 7px;
+  margin-top: 9px;
+}
+
+.pub-ol li div {
+  border: 1px solid #c9c9c9;
+}
+
+.pub-ol li div img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  border: 1px solid #e9e9e9;
+  margin: 3px;
+}
+
+.pub-ol li a {
+  line-height: 22px;
+  width: 98px;
+  text-align: center;
+  display: block;
+  height: 22px;
+  overflow: hidden;
+}
+
+.seventeen {
+  float: left;
+}
+
+.seventeen .seventeendiv {
+  height: 294px;
+}
+
+.seventeen .fourteen .fourteenul {
+  overflow: hidden;
+}
+
+.seventeen .fourteen .fourteenul .fourteenli {
+  width: 550px;
+  float: left;
+  border: none;
+}
+
+.seventeen .fourteent1 {
+  width: 550px;
+}
+
+.seventeen .fourteen .fourteenul {
+  overflow: hidden;
+}
+
+.seventeen .fourteen .fourteenul .seventeenli {
+  width: 259px;
+  float: left;
+  border: none;
+  overflow: hidden;
+}
+
+.eighteen .eighteen-fif {
+  height: 297px;
+}
+
+#eighteenul {
+  height: 252px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.diliuhang {
+  margin-top: 9px;
+}
+
+.twenty .seventeen .seventeendiv {
+  height: 317px;
+}
+
+.twe21 {
+  float: left;
+  margin-left: 10px;
+  width: 203px;
+  height: 314px;
+}
+
+.twe21 .pub-bz .twe21ul {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.twe21 .pub-bz .twe21ul li {
+  width: 201px;
+  overflow: hidden;
+}
+
+.twe21 .pub-bz .twe21ul li a div em {
+  color: #fff;
+  width: 16px;
+  height: 23px;
+  background: url(i/twe21.png) no-repeat 0 5px;
+  float: left;
+  line-height: 23px;
+  margin-left: 13px;
+  margin-right: 14px;
+  text-align: center;
+  font-style: normal;
+}
+
+.twe21 .pub-bz .twe21ul li a div var {
+  color: #000;
+  float: left;
+  display: block;
+  line-height: 23px;
+  font-style: normal;
+}
+
+.xianzi {
+  background: #fff8e8;
+  margin-top: 1px;
+  width: 201px;
+  overflow: hidden;
+  border-bottom: 1px;
+  border: 1px solid #f7c878;
+  border-left: none;
+}
+
+.xianzi p {
+  background: url(i/zhenqing6.png?_sprite) no-repeat 0 0;
+  width: 35px;
+  height: 51px;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 51px;
+  margin-left: 11px;
+  margin-right: 6px;
+  margin-top: 7px;
+}
+
+.xianzi dl {
+  float: left;
+}
+
+.xianzi dl dt {
+  float: left;
+  margin-right: 7px;
+  margin-top: 5px;
+}
+
+.xianzi dl dt img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e4e4e4;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+.xianzi dl dd {
+  float: left;
+}
+
+.xianzi dl dd b {
+  display: block;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+.bixianzi {
+  color: #fd8002;
+}
+
+.bixianzi:hover {
+  color: #fd8002;
+}
+
+.bixian {
+  color: #343233;
+}
+
+.bixian:hover {
+  color: #343233;
+}
+
+.gaobai1 {
+  display: block;
+  line-height: 23px;
+  margin-bottom: 1px;
+}
+
+.gaobai {
+  display: none;
+}
+
+a:hover .gaobai1 {
+  display: none;
+  width: 201px;
+  height: 65px;
+}
+
+a:hover .gaobai {
+  display: block;
+}
+
+.nineteen .sixteen .pub-bgcz .pub-bgcl .pub-bgcr .sixteenul {
+  padding-top: 11px;
+  padding-bottom: 19px;
+}
+
+.nineteen .sixteen .pub-bgcz .pub-bgcl .pub-bgcr .sixteenul li {
+  margin-bottom: 11px;
+}
+
+.twe21 .pub-bz {
+  height: 291px;
+}
+
+.twenty .seventeen .seventeendiv {
+  height: 318px;
+}
+
+.diqihang {
+  margin-top: 11px;
+}
+
+.twe25 {
+  width: 360px;
+  float: left;
+}
+
+.xuanxiu3 {
+  border: 1px solid #f7c878;
+  border-top: none;
+  height: 288px;
+}
+
+.xuanxiu1 {
+  height: 288px;
+  overflow: hidden;
+  float: left;
+  width: 172px;
+  border-right: 1px solid #f7c878;
+}
+
+.xuanxiu1 .twe21ul li {
+  vertical-align: top;
+}
+
+.xuanxiu1 .twe21ul li a {
+  display: block;
+}
+
+.xuanxiu1 .twe21ul li a div em {
+  font-style: normal;
+}
+
+.xuanxiu1 .twe21ul li a div var {
+  font-style: normal;
+}
+
+.xuanxiu1 .twe21ul li a .gaobai .xianzi {
+  width: 175px;
+}
+
+.xuanxiu2 {
+  height: 288px;
+  width: 172px;
+  overflow: hidden;
+  float: left;
+  margin-left: 12px;
+  border-left: 1px solid #f7c878;
+}
+
+.xuanxiu2 .twe21ul li {
+  vertical-align: top;
+}
+
+.xuanxiu2 .twe21ul li a {
+  display: block;
+}
+
+.xuanxiu2 .twe21ul li a div em {
+  font-style: normal;
+}
+
+.xuanxiu2 .twe21ul li a div var {
+  font-style: normal;
+}
+
+.xuanxiu2 .twe21ul li a .gaobai .xianzi {
+  width: 175px;
+}
+
+.twe26 {
+  float: left;
+  width: 420px;
+  margin-left: 10px;
+}
+
+.pub-26tz {
+  background: url(i/pub-sev26.png) repeat-x 0 -29px;
+}
+
+.pub-26tz .pub-26tl {
+  background: url(i/pub-sev26.png) no-repeat 0 0;
+}
+
+.pub-26tz .pub-26tl .pub-26tr {
+  height: 29px;
+  background: url(i/pub-sev26.png) no-repeat right -58px;
+}
+
+.twe26 .pub-bz .twe21ul li {
+  float: left;
+  width: 205px;
+}
+
+.hougong {
+  width: 418px;
+  border: 1px solid #9dd6f1;
+  border-top: none;
+}
+
+.hougong1 {
+  height: 289px;
+  overflow: hidden;
+  float: left;
+  width: 201px;
+  border-right: 1px solid #9dd6f1;
+}
+
+.hougong1 .twe21ul li a div em {
+  font-style: normal;
+}
+
+.hougong1 .twe21ul li a div var {
+  font-style: normal;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi {
+  border-left: none;
+}
+
+.hougong2 {
+  height: 288px;
+  overflow: hidden;
+  float: left;
+  margin-left: 14px;
+  width: 201px;
+  border-left: 1px solid #9dd6f1;
+}
+
+.hougong2 .twe21ul li a div em {
+  font-style: normal;
+}
+
+.hougong2 .twe21ul li a div var {
+  font-style: normal;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi {
+  border-left: none;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi {
+  margin-top: 1px;
+  width: 201px;
+  overflow: hidden;
+  border-bottom: 1px;
+  border: 1px solid #5bc2ef;
+  border-left: none;
+  background: #fff;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi p {
+  background: url(i/hougong1.png?_sprite) no-repeat 0 0;
+  width: 35px;
+  height: 51px;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 51px;
+  margin-left: 11px;
+  margin-right: 6px;
+  margin-top: 7px;
+  text-decoration: none;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi dl {
+  float: left;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi dl dt {
+  float: left;
+  margin-right: 7px;
+  margin-top: 5px;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi dl dt img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #5bc2ef;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi dl dd {
+  float: left;
+}
+
+.hougong1 .twe21ul li a .gaobai .xianzi dl dd b {
+  display: block;
+  line-height: 22px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.hougong1 .twe21ul li a {
+  text-decoration: none;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi {
+  margin-top: 1px;
+  width: 201px;
+  overflow: hidden;
+  border-bottom: 1px;
+  border: 1px solid #5bc2ef;
+  border-left: none;
+  background: #fff;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi p {
+  background: url(i/hougong1.png?_sprite) no-repeat 0 0;
+  width: 35px;
+  height: 51px;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 51px;
+  margin-left: 11px;
+  margin-right: 6px;
+  margin-top: 7px;
+  text-decoration: none;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi dl {
+  float: left;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi dl dt {
+  float: left;
+  margin-right: 7px;
+  margin-top: 5px;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi dl dt img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #5bc2ef;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi dl dd {
+  float: left;
+}
+
+.hougong2 .twe21ul li a .gaobai .xianzi dl dd b {
+  display: block;
+  line-height: 22px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.hougong2 .twe21ul {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.hougong2 .twe21ul li {
+  vertical-align: top;
+}
+
+.hougong2 .twe21ul li a {
+  text-decoration: none;
+  display: block;
+}
+
+.hougong2 .twe21ul li a div em {
+  color: #fff;
+  width: 16px;
+  height: 23px;
+  background: url(i/hougong2.png) no-repeat 0 5px;
+  float: left;
+  line-height: 23px;
+  margin-left: 13px;
+  margin-right: 14px;
+  text-align: center;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hougong2 .twe21ul li a div var {
+  float: left;
+  display: block;
+  line-height: 23px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hougong1 .twe21ul {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.hougong1 .twe21ul li {
+  vertical-align: top;
+}
+
+.hougong1 .twe21ul li a {
+  display: block;
+}
+
+.hougong1 .twe21ul li a div em {
+  color: #fff;
+  width: 16px;
+  height: 23px;
+  background: url(i/hougong2.png) no-repeat 0 5px;
+  float: left;
+  line-height: 23px;
+  margin-left: 13px;
+  margin-right: 14px;
+  text-align: center;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hougong1 .twe21ul li a div var {
+  float: left;
+  display: block;
+  line-height: 23px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.xuanxiu1 .twe21ul {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.xuanxiu1 .twe21ul li a {
+  text-decoration: none;
+}
+
+.xuanxiu1 .twe21ul li a div em {
+  color: #fff;
+  width: 16px;
+  height: 23px;
+  background: url(i/twe21.png) no-repeat 0 5px;
+  float: left;
+  line-height: 23px;
+  margin-left: 13px;
+  margin-right: 14px;
+  text-align: center;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.xuanxiu1 .twe21ul li a div var {
+  float: left;
+  display: block;
+  line-height: 23px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.xuanxiu2 .twe21ul {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.xuanxiu2 .twe21ul li a {
+  text-decoration: none;
+}
+
+.xuanxiu2 .twe21ul li a div em {
+  color: #fff;
+  width: 16px;
+  height: 23px;
+  background: url(i/twe21.png) no-repeat 0 5px;
+  float: left;
+  line-height: 23px;
+  margin-left: 13px;
+  margin-right: 14px;
+  text-align: center;
+  font-style: normal;
+}
+
+.xuanxiu2 .twe21ul li a div var {
+  float: left;
+  display: block;
+  line-height: 23px;
+  font-style: normal;
+}
+
+.twe27 .eleven {
+  margin-top: 0px;
+}
+
+.twe27 .eleven .pub-bz .danganul {
+  height: 279px;
+}
+
+.seventeen .fourteen {
+  border: 1px #d7d7d7 solid;
+  position: relative;
+  float: left;
+}
+
+.seventeen .fourteen i {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -58px;
+  z-index: 10;
+}
+
+.seventeen .fourteen b {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -67px;
+  z-index: 10;
+}
+
+.seventeen .fourteen var {
+  bottom: -1px;
+  left: -1px;
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -76px;
+  z-index: 10;
+}
+
+.seventeen .fourteen em {
+  bottom: -1px;
+  right: -1px;
+  position: absolute;
+  z-index: 10;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: url(i/index.png?__sprite1488870582379) no-repeat 0 0;background-position:0px -85px;
+}
+
+.gaihou15 {
+  height: 392px;
+  overflow: hidden;
+}
+
+.zuihou5 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.zuihou11 {
+  padding-top: 3px;
+  padding-bottom: 8px;
+}
+
+.danganul {
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.zuihou18 {
+  height: 267px;
+  overflow: hidden;
+}
+
+.zuihou19 {
+  height: 286px;
+}
+
+.zuihou14 {
+  float: left;
+  width: 268px;
+  height: 420px;
+  border-right: 1px dotted #888888;
+  overflow: hidden;
+}
+
+.zuihou14 .fourteenul {
+  width: 265px;
+}
+
+.zuihou141 {
+  float: left;
+  width: 268px;
+  overflow: hidden;
+}
+
+.zuihou141 .fourteenul {
+  width: 265px;
+}
+
+.fourteendiv {
+  margin-bottom: 0;
 }

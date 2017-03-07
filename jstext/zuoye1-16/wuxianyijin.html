@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>新航路师徒学院</title>
+    <meta name="keywords" content="新航路师徒学院"/>
+    <meta name="description" content="新航路师徒学院"/>
+    <style>
+    	li {
+			  list-style-type: none;
+			}
+		.clearfix:after {content:'.';display:block;height:0;clear:both;visibility:hidden;}
+		.clearfix {*zoom:1;}
+		.clear {
+		  clear: both;
+		  height: 0;
+		  overflow: hidden;
+		}
+		.one{
+			background:#f4f8fb;
+		}
+		.two span{
+			float:left;
+			margin-left:10px;
+		}
+		.two ul{
+			float:left;
+		}
+		.two ul li{
+			float:left;
+			margin-left:10px;
+			height:26px;
+			border:1px solid #78c8fb;
+		/*	text-align:center;*/
+		
+		}
+		.two{
+			border:1px red solid;
+		}
+		.two ul li a{
+			background:url(i/yk1.png) no-repeat 0 0;
+			width:10px;
+			height:11px;
+			display:block;
+			float:right;
+			margin-top:5px;	
+		}
+		.tianjia1{
+			float:left;
+		}
+		.tianjia{
+			border:none;
+			background:#02a2ed;
+			color:#fff;
+			float:left;
+		}
+		.three i{
+			float:left;
+			margin-top:15px;
+			font-style:normal;
+		}
+		.three ul{
+		float:left;
+		}
+		.three ul li input{
+			float:left;
+			margin-left:10px;
+			width:92px;
+			height:26px;
+			background:#fff;
+			border:1px solid #dddddd;
+		}
+		.three ul li{
+			float:left;
+		}
+    </style>
+</head>
+<body>
+<div class="one">
+	<p>编辑公司标签</p>
+	<div class="two clearfix">
+		<span>未添加标签</span>
+		<ul id="list">
+			<li>客户资源&nbsp;&nbsp;<a href="javascript:;"></a></li>
+			<li>五险一金&nbsp;&nbsp;<a href="javascript:;"></a></li>
+			<li>交通补助&nbsp;&nbsp;<a href="javascript:;"></a></li>
+		</ul>
+	</div>
+	<div class="clearfix">
+		<input type="text" class="tianjia1" value="" id="btn2"><input type="button" value="添加" class="tianjia" id="btn1">
+	</div>
+	<div class="three clearfix">
+		<i>推荐:</i>
+		<ul id="list1">
+			<li><input type="button" value="领导很好" id="btn4"/></li>
+			<li><input type="button" value="领导很好" id="btn5"/></li>
+			<li><input type="button" value="领导很好" id="btn6"/></li>
+			<li><input type="button" value="领导很好" id="btn7"/></li>
+		</ul>
+	</div>
+</div>
+<script>
+	var oList = document.getElementById('list');
+	var oBtn1 = document.getElementById('btn1');
+	var oBtn2 = document.getElementById('btn2');
+	var li = document.createElement('li');
+	function removeFn(){
+		for(var i=0,len=oList.children.length;i<len;i++){
+			oList.children[i].children[0].onclick = function(){
+				this.parentNode.parentNode.removeChild(this.parentNode);
+			};
+		};
+	}
+	removeFn();
+	function addFn(val){
+		var li = document.createElement('li');
+		li.innerHTML = val+'&nbsp;&nbsp;<a href="javascript:;"></a>';
+		oList.appendChild(li);
+		removeFn();
+	}
+	oBtn1.onclick = function(){
+		addFn(oBtn2.value)		
+	};
+	function xianzai(str){
+		var oBtn3 = document.getElementById(str);
+		oBtn3.onclick = function(){
+			addFn(this.value)
+		};	
+	}
+	xianzai('btn4');
+	xianzai('btn5');
+	xianzai('btn6');
+	xianzai('btn7');
+</script>
+</body>
+</html>
