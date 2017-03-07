@@ -1,0 +1,25 @@
+@import "moren";
+.oneul{
+	li{
+		float:left;
+		margin-right:10px;
+		// display:none;
+	}
+}
+.onediv1{
+	width:100px;
+	height:100px;
+	border:1px red solid;
+}
+.onediv2{
+	width:100px;
+	height:100px;
+	border:2px red solid;
+	display:none;
+}
+.onediv3{
+	width:100px;
+	height:100px;
+	border:5px red solid;
+	display:none;
+}

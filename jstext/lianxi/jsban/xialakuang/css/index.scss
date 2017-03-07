@@ -1,0 +1,17 @@
+@import "moren";
+.onediv{
+	position:relative;
+	z-index:5;
+	input{
+		width:100px;
+	}
+	ol{
+		display:none;
+		position:absolute;
+		z-index:6;
+		li{
+			width:100px;
+			text-align:center;
+		}
+	}
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>shieryueliuhao</title>
+	<meta name="keyboard" content="jieshaodeneirong"/>
+	<meta name="description" content="jieshaodeneir"/>
+	<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/sea.js"></script>
+	<script src="/js/handlebars-1.1.2.js"></script>
+</head>
+<body>
+<ul class="oneul clearfix">
+	<li>首页</li>
+	<li>公司</li>
+	<li>我的简历</li>
+</ul>
+<div class="twoul clearfix">
+	<p>我的简历</p>
+	<var id="zongy">预览简历</var>
+</div>
+<ul class="twoul" id="twoUl">
+	<li class="oneli">
+		<div class="jiben clearfix">
+			<var></var>
+			<em>基本信息</em>
+		</div>
+		<div class="onekuai1" id="onek1" style="display:block;">
+			<div class="xianjudi">
+				<input type="text" value="" id="ula01">
+				<input type="text" value="" id="ula02">
+				<span class="onepub-p clearfix">
+					<input type="text" value="" id="ula1">
+					<em id="onee1" class="onepub-d"></em>
+					<ol id="oneo2" class="oneo2 onepub-ol">
+						<li>河北省</li>
+						<li>河北省</li>
+						<li>河男省</li>
+						<li>河北省</li>
+					</ol>
+				</span>
+				<span class=" onepub-p clearfix">
+					<input type="text" value="" id="ula2">
+					<em id="onee2" class="onepub-d"></em>
+					<ol id="oneo1" class="oneo1 onepub-ol">
+						<li>河北省</li>
+						<li>河北省</li>
+						<li>河男省</li>
+						<li>河北省</li>
+					</ol>
+				</span>
+			</div>
+			<div class="xianjudi1">
+				<div class="nannv clearfix">
+					<i>性别:</i>
+					<var id="onenan">男</var>
+					<cite id="onenv">女</cite>
+				</div>
+				<span class=" onepub-p clearfix">
+					<input type="text" value="" id="ula3">
+					<em id="onee3" class="onepub-d"></em>
+					<ol id="oneo3" class="oneo3 onepub-ol">
+						<li>一年</li>
+						<li>两年</li>
+						<li>三年以上</li>
+						<li>应届生</li>
+					</ol>
+				</span>
+				<span class="onepub-p clearfix">
+					<input type="text" value="" id="ula4">
+					<em id="onee4" class="onepub-d"></em>
+					<ol id="oneo4" class="oneo4 onepub-ol">
+						<li>北京</li>
+						<li>天津</li>
+						<li>上海</li>
+						<li>苏州</li>
+					</ol>
+				</span>
+				<span class="onepub-p clearfix">
+					<input type="text" value="" id="ula5">
+					<em id="onee5" class="onepub-d"></em>
+					<ol id="oneo5" class="oneo5 onepub-ol">
+						<li>北京</li>
+						<li>上海</li>
+						<li>南京</li>
+						<li>武汉</li>
+					</ol>
+				</span>
+			</div>
+			<div class="zhaopian">
+				<cite>
+					<b>上传头像</b>
+				</cite>
+				<i id="onef">目前离职中</i>
+			</div>
+			<div class="clear"></div>
+			<div class="onebaocun clearfix">
+				<p id="onebao">保存</p>
+				<span id="onequxiao">取消</span>
+			</div>
+		</div>
+		<div class="onekuai2" id="onek2">
+			<div class="clearfix">
+				<div class="onehanwen">
+					<span  class="onespan1 clearfix">
+						<var id="onename">杨翰文</var>
+						<em class="oneem1" id="onesex">男</em>
+						<em class="oneem3">/</em>
+						<em class="oneem2" id="oneage">26岁</em>
+					</span>
+					<cite>
+						现居地：<i id="onexianju">北京</i>&nbsp;&nbsp;&nbsp;
+						户口地：<b id="onehukou"> 北京</b>
+					</cite>
+					<span class="onespan2">
+						工作经验:<strong id="onegongzuo">4年</strong>&nbsp;&nbsp;&nbsp;
+						目前状态:<strong id="onem">离职</strong>
+					</span>
+				</div>
+				<img src="images/yanghanwen.png" alt="tupian" class="onetupian"/>
+			</div>
+		</div>
+		<div class="onebian" id="onebian">编辑</div>
+	</li>
+	<li>
+		<div class="twok1" id="twok1">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>联系方式</em>
+				<i id="twobian">编辑</i>
+			</div>
+			<div class="twodian1">
+				<span id="twod3">13522955049</span>
+				<p id="twod4">yanwen@qq.com</p>
+			</div>
+		</div>
+		<div class="twok2" id="twok2" style="dispaly:block;">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>联系方式</em>
+			</div>
+			<div class="clearfix">
+				<input type="text" value="" id="twod1" class="twod1"/>
+				<input type="text" value="" id="twod2" class="twod2"/>
+			</div>
+			<div class="onebaocun clearfix">
+				<p id="onebao1">保存</p>
+				<span id="onequxiao">取消</span>
+			</div>
+			<div class="twoding" id="twoding"></div>
+		</div>
+	</li>
+	<li>
+		<div class="threek1" id="threek1">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>联系方式</em>
+				<i id="threebian">编辑</i>
+			</div>
+			<div class="threes clearfix">
+				<em>身高:</em>
+				<var>182cm</var>
+				<i>体重:</i>
+				<cite>182公斤</cite>
+			</div>
+		</div>
+		<div class="threek2" id="threek2">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>联系方式</em>
+			</div>
+			<input type="text" value="" id="threed1" class="threed1">
+			<input type="text" value="" id="threed2" class="threed2">
+			<p>厘米</p>
+			<span>公斤</span>
+		</div>
+	</li>
+	<li>
+		<div class="fourk1" id="fourk1">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>联系方式</em>
+				<i id="fourbian">编辑</i>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>期望行业:</cite>
+				<div class="foura11" id="fourqw1">It/互联网</div>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>期望职位:</cite>
+				<span id="fourxs1">销售经理</span>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>期望工作地区:</cite>
+				<span>
+					<b id="fourqw2"></b>
+					<strong id="fourqw3"></strong>
+				</span>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>期望底薪:</cite>
+				<span id="fourxs2">20k</span>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>期望销售产品:</cite>
+				<span id="fourxs3">汽车</span>
+			</div>
+			<div class="foura1 clearfix">
+				<cite>销售方式:</cite>
+				<span id="fourjia1">电话销售</span>
+			</div>
+		</div>
+		<div class="fourk2" id="fourk2" display="block">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>个人形象</em>
+			</div>
+			<div class="fourhy clearfix">
+				<i>期望行业前翻:</i>
+				<span>
+					<input type="text" value="" id="fourph1"/>
+					<em id="fourxl1"></em>
+				</span>
+			</div>
+			<div class="fourhy1 clearfix">
+				<i>期望行业:</i>
+				<input type="text" value="" id="fourq1"/>
+			</div>
+			<div class="fourhy1 clearfix">
+				<i>期望行业:</i>
+				<input type="text" value="" id="fourq2"/>
+			</div>
+			<div class="fourhy fourhy2 clearfix">
+				<i>期望行业无法:</i>
+				<span>
+					<input type="text" value="" id="fourph2"/>
+					<em id="fourxl2"></em>
+				</span>
+				<span>
+					<input type="text" value="" id="fourph3"/>
+					<em id="fourxl3"></em>
+				</span>
+				<div class="fourx1">
+				<input type="checkbox" value=""/>
+				<label>可出差</label>
+				</div>
+			</div>
+			<div class="fourhy1 clearfix">
+				<i>期望行业:</i>
+				<input type="text" value="" id="fourq3"/>
+			</div>
+			<div class="fourdm1 clearfix">
+				<i>期望销售方式:</i>
+				<div class="fourdm">
+					<span>
+						<input type="checkbox" value="" id="fourdj1"/>
+						<label>店面销售</label>
+					</span>
+					<span>
+						<input type="checkbox" value="" id="fourdj2"/>
+						<label>店面销售</label>
+					</span>
+					<span>
+						<input type="checkbox" value="" id="fourdj3"/>
+						<label>店面销售</label>
+					</span>
+					<span>
+						<input type="checkbox" value="" id="fourdj4"/>
+						<label>店面销售</label>
+					</span>
+					<span>
+						<input type="checkbox" value="" id="fourdj5"/>
+						<label>店面销售</label>
+					</span>
+					<span>
+						<input type="checkbox" value="" id="fourdj6"/>
+						<label>店面销售</label>
+					</span>
+				</div>
+			</div>
+			<div class="onebaocun clearfix">
+				<p id="fourbao1">保存</p>
+				<span id="onequxiao">取消</span>
+			</div>
+			<ol class="fourol1" id="fourol1">
+				<li>It</li>
+				<li>互联网</li>
+				<li>好我</li>
+				<li>电话</li>
+			</ol>
+			<ol class="fourol2" id="fourol2">
+				<li>北京市</li>
+				<li>北京市</li>
+				<li>河北省</li>
+			</ol>
+			<ol class="fourol3" id="fourol3">
+				<li>北京</li>
+				<li>上海</li>
+				<li>天津</li>
+			</ol>
+		</div>
+		<div class="fourk3" id="fourk3">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>个人形象</em>
+			</div>
+			<dl class="fourdl clearfix">
+				<dt></dt>
+				<dd>
+					<em>通过生活照展示个人形象</em>
+					<i>通过对企业的吸引力</i>
+					<span id="fourws">完善个人形象</span>
+				</dd>
+			</dl>
+		</div>
+	</li>
+	<li class="fivezong" id="five-zong">
+		<div class="fivek1">
+			<div class="twopub clearfix" id="fivexg1">
+				<var></var>
+				<em>工作经历</em>
+				<i id="fivebian">添加</i>
+			</div>
+			<ol class="fiveol" id="fiveol">
+				<li id="fiveli">
+				   
+					<div class="fivekelong" id="fivekelong">
+					</div>
+					
+					<div></div>
+				</li>
+			</ol>
+		</div>
+		<div class="fourk3" id="fivek3">
+			<div class="twopub clearfix">
+				<var></var>
+				<em>个人形象</em>
+			</div>
+			<dl class="fourdl clearfix">
+				<dt></dt>
+				<dd>
+					<em>通过生活照展示个人形象</em>
+					<i>通过对企业的吸引力</i>
+					<span id="fivews">完善个人形象</span>
+				</dd>
+			</dl>
+		</div>
+	</li>
+</ul>
+<script id="entry-template1" type="text/x-handlebars-template">
+    {{#each this}}
+    <div class="fivehou1 clearfix" data-index="{{@index}}>
+    	<cite>{{qian1}}</cite>
+		<em>-</em>
+		<span>{{qian2}}</span>
+		<b class="five-shan">删除</b>
+		<strong class="five-bian">编辑</strong>
+    </div>
+    {{/each}}
+</script>
+<script id="entry-template2" type="text/x-handlebars-template">
+	<div class="fivek2" id="fivek2">
+		<div class="fivein1 clearfix">
+			<input type="text" value="{{qian1}}" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk11"/>
+			<input type="text" value="{{qian2}}" yang1="xi1" yang2="xi2" yang3="xi3" class="fiveinput five-yk1 five-yk12"/>
+		</div>
+		<div class="fivein2 clearfix">
+			<span class="onepub-p">
+				<input type="text" value="{{qian3}}" placeholder="vqycfv" yang1="xi1" yang2="xi2" yang="xi3" class="five-yk1 five-yk13" abe="guo"/>
+				<ol class="fivedw1 onepub-ol">
+					<li>2015</li>
+					<li>2016</li>
+					<li>2017</li>
+				</ol>
+				<em abc="nian" class="onepub-d"></em>
+			</span>
+			<span class="onepub-p">
+				<input type="text" value="{{qian4}}" placeholder="vqycfv" yang1="xi1" yang2="xi2" yang="xi3" class="five-yk1 five-yk14" abe="guo"/>
+				<ol class="fivedw2 onepub-ol">
+					<li>2015</li>
+					<li>2016</li>
+					<li>2017</li>
+				</ol>
+				<em abc="nian" class="onepub-d"></em>
+			</span>
+			<span class="onepub-p">
+				<input type="text" value="{{qian5}}" placeholder="vqycfv" yang1="xi1" yang2="xi2" yang="xi3" class="five-yk1 five-yk15" abe="guo"/>
+				<ol class="fivedw3 onepub-ol">
+					<li>2015</li>
+					<li>2016</li>
+					<li>2017</li>
+				</ol>
+				<em abc="nian" class="onepub-d"></em>
+			</span>
+			<span class="onepub-p">
+				<input type="text" placeholder="vqycfv" yang1="xi1" yang2="xi2" yang="xi3" class="five-yk1 five-yk16" value="{{qian6}}"/>
+				<ol class="fivedw4 onepub-ol">
+					<li>2015</li>
+					<li>2016</li>
+					<li>2017</li>
+				</ol>
+				<em abc="nian" class="onepub-d"></em>
+			</span>
+		</div>
+		<div class="fivein3">
+			<input type="checkbox" value=""/>
+			<label>管理岗位</label>
+		</div>
+		<div class="fivein1 clearfix">
+			<input type="text" value="{{qian7}}" yang1="xi1" yang2="xi2" class="five-yk1 five-yk17" yang3="xi3"/>
+			<input type="text" value="{{qian8}}" placeholder="vqycfv" yang1="xi1" yang2="xi2" yang3="xi3" class="fiveinput five-yk1 five-yk18"/>
+		</div>
+		<div class="fivein5">
+			<input type="text" yang1="xi1" value="{{qian9}}" yang2="xi2" yang3="xi3" class="five-yk1 five-yk19"/>
+		</div>
+		<div class="fivein6">
+			<p>让数据说话，快来展示你傲人的业绩吧</p>
+			<ol class="fiveol1 clearfix">
+				<li>
+					<input type="text" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk20" value="{{qian10}}"/>
+				</li>
+				<li>
+					<input type="text" yang1="xi1"  yang2="xi2" yang3="xi3" class="five-yk1 five-yk21" value="{{qian11}}"/>
+				</li>
+				<li>
+					<input type="text" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk22" value="{{qian12}}"/>
+				</li>
+				<li>
+					<input type="text" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk23" value="{{qian13}}"/>
+				</li>
+				<li>
+					<input type="text" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk24" value="{{qian14}}"/>
+				</li>
+				<li>
+					<input type="text" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk25" value="{{qian15}}"/>
+				</li>
+			</ol>
+		</div>
+		<div class="fivein3">
+			<input type="checkbox" yang1="xi1" value=""/>
+			<label>添加更多描述</label>
+		</div>
+		<div class="fivein8">
+			<input type="text" placeholder="vyevlalalla啦啦啦" yang1="xi1" yang2="xi2" yang3="xi3" class="five-yk1 five-yk26" value="{{qian16}}"/>
+		</div>
+		<div class="onebaocun fivebaocun clearfix">
+			<p id="onebao5" abd="hao">保存</p>
+			<span id="onequxiao">取消</span>
+		</div>
+	</div>
+</script>
+<script>
+seajs.use("index2",function (app) {
+		app.init();
+});
+</script>
+</body>
+</html>
